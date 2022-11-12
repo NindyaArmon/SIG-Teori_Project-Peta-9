@@ -12,13 +12,13 @@ Langkah Kerja :
 
 6. Di bagian Pengkodean Gambar, Anda harus memilih format gambar. Format gambar itu penting, dan itu tergantung pada kasus penggunaan. Berdasarkan perspektif pengguna berikut adalah beberapa petunjuk,
 
-  Kualitas: Kompresi file untuk PNG adalah lossless, untuk JPEG ini adalah kompresi lossy dan TIFF dapat berupa keduanya. Itu berarti kualitas PNG akan lebih baik dibandingkan dengan JPEG. Jika tujuan utama Anda adalah mencetak peta, gunakan PNG.
+-  Kualitas: Kompresi file untuk PNG adalah lossless, untuk JPEG ini adalah kompresi lossy dan TIFF dapat berupa keduanya. Itu berarti kualitas PNG akan lebih baik dibandingkan dengan JPEG. Jika tujuan utama Anda adalah mencetak peta, gunakan PNG.
 
-  Kecepatan: Karena gambar PNG tidak terkompresi dan dengan demikian ukurannya lebih besar, mereka akan membutuhkan waktu lebih lama untuk dimuat. Jika Anda menggunakan lapisan dalam proyek Anda sebagai lapisan referensi dan perlu banyak memperbesar/menggeser, gunakan JPEG.
+-  Kecepatan: Karena gambar PNG tidak terkompresi dan dengan demikian ukurannya lebih besar, mereka akan membutuhkan waktu lebih lama untuk dimuat. Jika Anda menggunakan lapisan dalam proyek Anda sebagai lapisan referensi dan perlu banyak memperbesar/menggeser, gunakan JPEG.
 
-  Dukungan Klien: QGIS mendukung sebagian besar format, tetapi jika Anda mengembangkan aplikasi web, browser biasanya tidak mendukung TIFF, jadi Anda harus memilih format lain.
+-  Dukungan Klien: QGIS mendukung sebagian besar format, tetapi jika Anda mengembangkan aplikasi web, browser biasanya tidak mendukung TIFF, jadi Anda harus memilih format lain.
 
-  Jenis data: Jika lapisan Anda sebagian besar adalah vektor, PNG akan memberikan hasil yang lebih baik. Untuk lapisan citra, JPEG biasanya merupakan pilihan yang lebih baik.
+-  Jenis data: Jika lapisan Anda sebagian besar adalah vektor, PNG akan memberikan hasil yang lebih baik. Untuk lapisan citra, JPEG biasanya merupakan pilihan yang lebih baik.
 
 7. Sekarang lapisan Probabilities of Urban Expansion to 2030 akan dimuat di kanvas. Gunakan alat Zoom/Pan untuk menjelajahi lapisan. Cara kerja layanan WMS adalah setiap kali Anda memperbesar/menggeser, ia mengirimkan koordinat area pandang Anda ke server dan server membuat gambar untuk area pandang tersebut dan mengembalikannya ke klien. Jadi, akan ada beberapa penundaan sebelum Anda melihat gambar untuk area tersebut setelah Anda memperbesar. Oleh karena itu, koneksi internet selalu diperlukan untuk mengakses lapisan ini.
 
